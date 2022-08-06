@@ -64,6 +64,7 @@ $(document).ready(function(){
         .then((data)=>{
             data.forEach((alumno)=>{
                 nA++
+                alumnos.push(alumno)
                 agregarAlumno(alumno)
             })
         })
